@@ -1,0 +1,21 @@
+{
+  "name": "wechat-publisher",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/index.ts",
+    "crawl": "npx tsx src/crawler.ts",
+    "transform": "npx tsx src/transformer.ts",
+    "publish": "npx tsx src/publisher.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
